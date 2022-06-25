@@ -5,7 +5,7 @@ from taco.views import AlimentoViewSet
 
 router = routers.DefaultRouter()
 
-router.register(r'alimentoes', AlimentoViewSet)
+router.register(r'alimentos', AlimentoViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),
